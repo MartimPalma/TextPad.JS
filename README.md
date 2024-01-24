@@ -1,0 +1,1 @@
+This exercise aims to develop a tool to support text formatting: DecaTextPad®. Develop an algorithm that integrates the various text formatting features: alignment, background and font color, text size and erase text.
