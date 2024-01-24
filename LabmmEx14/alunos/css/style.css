@@ -1,0 +1,143 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: Work Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  border: 2px solid #72c390;
+  background-color: white;
+  color: #72c390;
+  padding: 1rem 40px;
+  cursor: pointer;
+}
+
+.flex_container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.flex_child_esq {
+  flex: 0 0 25%;
+  max-width: 25%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.flex_child_dir {
+  flex: 0 0 75%;
+  max-width: 75%;
+  background-color: rgb(114, 195, 144);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex_child_esq > div {
+  display: flex;
+  flex-flow: column wrap;
+  width: 80%;
+  align-items: center;
+}
+
+#h2_decallustrator {
+  margin: 40px auto 0;
+  text-align: center;
+}
+
+.div_icons {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+}
+
+.div_icons > button {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0.1rem 15px;
+}
+
+.div_icons > input {
+  margin-top: 10px;
+}
+
+#artboard {
+  background-color: white;
+  width: 90%;
+  height: 90vh;
+  position: relative;
+}
+
+#texto_inserido {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+  font-size: 15pt;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  background: #72c390;
+  height: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: 1px solid #000000;
+  height: 20px;
+  width: 16px;
+  border: 0;
+  border-radius: 4px;
+  background: #ffffff;
+  cursor: pointer;
+  margin-top: 0px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/* AVANÇADO */
+#reset {
+  color: #72c390;
+  text-decoration: underline;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+#templates {
+  display: flex;
+  align-items: flex-end;
+  flex-flow: row wrap;
+  column-gap: 10px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  zoom: 70%;
+}
+
+#templates button {
+  padding: 5px 10px;
+  color: white;
+}
+
+#default1 {
+  background-color: cadetblue;
+  font-size: 28pt;
+}
+
+#default2 {
+  background-color: crimson;
+  font-size: 22pt;
+}

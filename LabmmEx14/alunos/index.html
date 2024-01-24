@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LM3 - Exercício 14</title>
+    <link
+      rel="stylesheet"
+      href="./css/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="flex_container">
+      <div class="flex_child_esq">
+        <!-- decallustrator -->
+        <h2 id="h2_decallustrator">DecaTextPad<sup>®</sup></h2>
+        <div>
+          <button id="btn_alinhar">Alinhamento</button>
+          <div class="div_icons" id="menu_alinhamento">
+            <button id="btn_align_l">
+              <i class="fa fa-align-left" aria-hidden="true"></i>
+            </button>
+            <button id="btn_align_c">
+              <i class="fa fa-align-center" aria-hidden="true"></i>
+            </button>
+            <button id="btn_align_r">
+              <i class="fa fa-align-right" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+        <div>
+          <button id="btn_cor_fundo">Cor do fundo</button>
+          <div class="div_icons" id="menu_corFundo">
+            <input type="color" id="btn_colour_backg" />
+          </div>
+        </div>
+        <div>
+          <button id="btn_cor_letra">Cor da letra</button>
+          <div class="div_icons" id="menu_corLetra">
+            <input type="color" id="btn_colour_text" />
+          </div>
+        </div>
+        <div>
+          <button id="btn_fonte">Tamanho do texto</button>
+          <div class="div_icons" id="menu_fonte">
+            <button id="btn_font_plus">
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </button>
+            <button id="btn_font_minus">
+              <i class="fa fa-minus" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+        <div>
+          <button id="btn_text_remove">Limpar texto</button>
+          <p id="reset">Reset</p>
+        </div>
+      </div>
+      <div class="flex_child_dir">
+        <!-- decallustrator_dir -->
+        <div id="artboard">
+          <textarea id="texto_inserido"></textarea>
+          <div id="templates"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/b.js"></script>
+  </body>
+</html>
